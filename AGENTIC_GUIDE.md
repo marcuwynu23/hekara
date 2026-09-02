@@ -890,4 +890,5 @@ read: AGENTS.md
 
 *This guide is maintained as code alongside the project. Updates follow the AGENTS.md review process.*
 
-*For questions about tool configuration, open a discussion in [GitHub Discussions](https://github.com/anomalyco/hekara/discussions) or consult AGENTIC_GUIDE.md.*
+*For questions about tool configuration, open a discussion in [GitHub Discussions](https://github.com/marcuwynu23/hekara/discussions) or consult 
+AGENTIC_GUIDE.md.*
