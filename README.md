@@ -99,9 +99,9 @@ Hekara follows this observability process:
 
 ## Project Components
 
-- [backend](./backend) - main operation and management
-- [agent](./agent) - agent install in every network nodes (devices, vms, etc)
-- [cli](./cli) - cli client tool handle cli operations
+- **backend** - main operation and management; control plane, agent orchestration, topology engine, probe scheduling, metrics collection, correlation engine, diagnosis engine, and alert management
+- **agent** - lightweight agent installed on every network node (devices, VMs, containers); responsible for local infrastructure discovery, active network measurements (ICMP, UDP, TCP), and sending observations to the controller
+- **cli** - CLI client tool for handling operations; agent status, info, ping, trace, probe, diagnose, watch, path, topology, VPN, route, diff, and incident commands
 
 ## Use Cases
 
